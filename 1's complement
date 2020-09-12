@@ -1,0 +1,4 @@
+import math
+N=int(input())
+bits=int(math.floor(math.log(N)/math.log(2)))+1;
+print(((1<<bits)-1)^N)
