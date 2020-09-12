@@ -1,0 +1,4 @@
+N1 = float(input())
+N2 = float(input())
+div=float(N1)/float(N2)
+print("%.2f"%div)
