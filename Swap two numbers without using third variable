@@ -1,0 +1,7 @@
+N1=int(input())
+N2=int(input())
+x=N1^N2
+y=x^N2
+z=x^y
+print(z)
+print(y)
