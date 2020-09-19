@@ -1,0 +1,5 @@
+import math
+N=int(input())
+k=int(math.log2(N))
+res=pow(2,k)
+print(res)
